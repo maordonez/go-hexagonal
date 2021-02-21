@@ -1,7 +1,7 @@
 package main
 
-import "go-hexagonal/infraestructura/loader"
+import "github.com/maordonez/go-hexagonal/infraestructura"
 
-func main() {
-	loader.StartAplication()
+func run() {
+	infraestructura.StartAplication()
 }
